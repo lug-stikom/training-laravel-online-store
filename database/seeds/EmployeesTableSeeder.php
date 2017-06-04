@@ -16,7 +16,7 @@ class EmployeesTableSeeder extends Seeder
             'nik' => 'N-0001',
             'nama' => 'Kukuh',
             'email' => 'rkukuh@gmail.com',
-            'tanggal_lahir' => Carbon::now()->->setDate(1987, 1, 31)
+            'tanggal_lahir' => Carbon::now()->setDate(1987, 1, 31),
             'gaji_pokok' => 10000000,
             'created_at' => new DateTime(),
             'updated_at' => new DateTime(),
