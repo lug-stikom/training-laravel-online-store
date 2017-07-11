@@ -20,7 +20,7 @@ class CreateProductsTable extends Migration
             $table->integer('parent_id')->unsigned()->nullable();
             $table->double('unit_price');
             $table->double('sale_price')->default(0);
-            $table->integer('stock');
+            $table->integer('stock')->default(0);
             $table->text('description');
             $table->timestamps();
         });
