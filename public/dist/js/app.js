@@ -1,5 +1,5 @@
-/*! AdminLTE app.js
- * ================
+/*! (DEPRECATED) AdminLTE app.js
+ * =============================
  * Main JS application file for AdminLTE v2. This file
  * should be included in all pages. It controls some layout
  * options and implements exclusive AdminLTE plugins.
@@ -7,10 +7,12 @@
  * @Author  Almsaeed Studio
  * @Support <http://www.almsaeedstudio.com>
  * @Email   <abdullah@almsaeedstudio.com>
- * @version 2.3.8
+ * @version 2.3.12
  * @license MIT <http://opensource.org/licenses/MIT>
+ * @deprecated since 2.3.11
  */
-
+/* jshint ignore:start */
+// jscs:disable
 //Make sure jQuery has been loaded before app.js
 if (typeof jQuery === "undefined") {
   throw new Error("AdminLTE requires jQuery");
@@ -40,7 +42,7 @@ $.AdminLTE.options = {
   navbarMenuSlimscrollWidth: "3px", //The width of the scroll bar
   navbarMenuHeight: "200px", //The height of the inner menu
   //General animation speed for JS animated elements such as box collapse/expand and
-  //sidebar treeview slide up/down. This options accepts an integer as milliseconds,
+  //sidebar treeview slide up/down. This option accepts an integer as milliseconds,
   //'fast', 'normal', or 'slow'
   animationSpeed: 500,
   //Sidebar push menu toggle button selector
